@@ -1,0 +1,21 @@
+{
+  "isolatedModules": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@apis/*": ["src/apis/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@pages/*": ["src/pages/*"],
+      "@utils/*": ["src/utils/*"],
+      "@_types/*": ["src/types/*"],
+      "@stores/*": ["src/stores/*"],
+      "@styles/*": ["src/styles/*"],
+      "@features/*": ["src/features/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@constants/*": ["src/constants/*"],
+      "@constants": ["src/constants/index"],
+      "@components/*": ["src/components/*"],
+      "@containers/*": ["src/containers/*"]
+    }
+  }
+}

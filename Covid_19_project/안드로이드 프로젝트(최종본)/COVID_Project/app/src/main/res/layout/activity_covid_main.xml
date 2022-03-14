@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    tools:context=".Covid_MainActivity" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            //title
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/title"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="국내 확진자 현황"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            //확진자 사망자 파트
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_border"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="확진자"
+                        android:textStyle="bold"
+                        android:textColor="#ee5874"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6,206,277"
+                        android:textSize="19sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textColor="#ee5874"
+                        android:id="@+id/T_hj"/>
+
+                    <TextView
+                        android:layout_width="69dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/plus"
+                        android:text="+383,665"
+                        android:padding="3dp"
+                        android:gravity="center"
+                        android:id="@+id/P_hj"
+                        android:textColor="#ee5874"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사망자"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/T_death"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:text="6,206,277"
+                        android:textColor="@color/black"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/P_death"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/plus"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="+383,665"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="치료중"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/T_care"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:text="6,206,277"
+                        android:textColor="@color/black"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/P_care"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/plus"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="+383,665"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="퇴원자"
+                        android:textColor="#5673eb"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/T_recover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textColor="#5673eb"
+                        android:text="6,206,277"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/P_recover"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/plus"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:textColor="#5673eb"
+                        android:text="+660" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/data_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="0"
+                android:textSize="12sp" />
+
+            //차트
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_border"
+                android:id="@+id/ChartLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="일별 확진자"
+                    android:textColor="@color/black"
+                    android:paddingTop="10dp"
+                    android:textSize="16sp"/>
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/LineChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"/>
+
+
+
+            </LinearLayout>
+
+            //하은님
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지역 별 감염 현황"
+                    android:textSize="17dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_date"
+                    android:text="yyyy-mm-dd"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gridView_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp"
+                    android:layout_margin="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="10dp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bottom_btn_clicked"
+            android:text="확진자"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:id="@+id/covid_btn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_click"
+            android:text="백신"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:id="@+id/vaccine_btn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+ListView
+
+-리스트뷰는 사용자가 정의한 데이터목록을 아이템단위로 구성해서 출력하는 ViewGroup의 한 종류이다.
+아이템 개수가 많으면 자동으로 스크롤이 가능함
+단순한 아이템 나열부터 커스텀까지 가능.
+
+View : 화면에 표시되거나 입력하기 위한 기본 객체
+	TextView ,Button,ImageView,EditText.....
+
+ViewGroup : view들이 모인그룹
+ 	Layout,ListView,Spinner
+
+Adapter
+--ListView의 데이터를 추가하여 화면에 표시할려면 Adapter가 필요함
+
+
+커스텀 리스트
+	1. 리스트 항목의 레이아웃을 작성
+	2.리스트 한건의 데이터를 저장할 클래스 작성
+	3.Adapter를 상속받아서 작성한 리스트항목의 레이아웃 적용
+	4.리스트 뷰에 생성한 Adapter를 적용
+
+LayoutInflater
+  -xml로 정의한 layout 틀을 실제 메모리에 올려주는 역할
+  -LayoutInflater는 xml에 정의된 Resource를 View객체로 반환해주는 역할을 함
+  -ViweGroup에서 getSystemService로 호출하여 inflater를 만들어주고 이 inflater를 이용해서 레이아웃 셋팅
+   해서 뷰에 리턴
+

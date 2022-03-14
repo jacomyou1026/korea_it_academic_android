@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <array name="items">
+        <item>JAVA</item>
+        <item>Html</item>
+        <item>js/jQuery</item>
+        <item>jsp</item>
+        <item>spring</item>
+    </array>
+</resources>

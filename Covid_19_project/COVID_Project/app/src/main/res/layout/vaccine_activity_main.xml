@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Vaccine_MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //text
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/title"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="백신 접종 현황"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_border"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1차 접종"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/first_perecent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="87.4%"
+                        android:textColor="#5673eb"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/first_today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="(+71)"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:background="@drawable/plus"
+                        android:textColor="#ff0000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/first_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="44,872,590"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="2차 접종"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/second_percent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="87.4%"
+                        android:textColor="#5673eb"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/second_today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="(+71)"
+                        android:textColor="#ff0000"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="14sp"
+                        android:background="@drawable/plus"/>
+
+                    <TextView
+                        android:id="@+id/second_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="44,872,590"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="3차 접종"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/third_percent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="87.4%"
+                        android:textColor="#5673eb"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/third_today"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="(+71)"
+                        android:background="@drawable/plus"
+                        android:textColor="#ff0000"
+                        android:textSize="14sp"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/third_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="44,872,590"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/data_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="0"
+                android:textSize="12sp" />
+
+            //rowChart
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_border"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="전체 접종률"
+                    android:textStyle="bold" />
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/totalVaccine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                </com.github.mikephil.charting.charts.HorizontalBarChart>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="60세 이상 접종률"
+                    android:textStyle="bold" />
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/oldbarchar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+
+            //barChart
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_border"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/vcFirst_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn"
+                        android:enabled="false"
+                        android:text="1차"
+                        android:textColor="#5673eb"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/vcSecond_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_click"
+                        android:text="2차"
+                        android:textColor="#D3D3D3"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/vcThird_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_click"
+                        android:text="3차"
+                        android:textColor="#D3D3D3"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <org.eazegraph.lib.charts.BarChart
+                        android:id="@+id/barChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:paddingTop="20dp"
+                        app:egBarWidth="20dp"
+                        app:egEnableScroll="true"
+                        app:egFixedBarWidth="true"
+                        app:egLegendHeight="40dp"
+                        app:egLegendTextSize="14sp"
+                        app:egShowDecimal="false" />
+
+                    <org.eazegraph.lib.charts.BarChart
+                        android:id="@+id/barChart2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:paddingTop="20dp"
+                        android:visibility="gone"
+                        app:egBarWidth="20dp"
+                        app:egEnableScroll="true"
+                        app:egFixedBarWidth="true"
+                        app:egLegendHeight="40dp"
+                        app:egLegendTextSize="14sp"
+                        app:egShowDecimal="false" />
+
+                    <org.eazegraph.lib.charts.BarChart
+                        android:id="@+id/barChart3"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:paddingTop="20dp"
+                        android:visibility="gone"
+                        app:egBarWidth="20dp"
+                        app:egEnableScroll="true"
+                        app:egFixedBarWidth="true"
+                        app:egLegendHeight="40dp"
+                        app:egLegendTextSize="14sp"
+                        app:egShowDecimal="false" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            //pieChart
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_border"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="백신별 접종률"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+
+                </com.github.mikephil.charting.charts.PieChart>
+
+            </LinearLayout>
+
+            //백신정보
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_border">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/info_btn"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/Pfizer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/info_btn_click"
+                            android:text="화이자"
+                            android:textColor="#545A5F"
+
+                            ></Button>
+
+                        <Button
+                            android:id="@+id/Moderna"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_click"
+                            android:text="모더나"
+                            android:textColor="#545A5F"></Button>
+
+                        <Button
+                            android:id="@+id/Janssen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_click"
+                            android:text="얀센"
+                            android:textColor="#545A5F"></Button>
+
+                        <Button
+                            android:id="@+id/AZ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_click"
+                            android:text="AZ"
+                            android:textColor="#545A5F"></Button>
+
+                        <Button
+                            android:id="@+id/Novavax"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/btn_click"
+                            android:text="노바백스"
+                            android:textColor="#545A5F"></Button>
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/line1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="개발국"
+                                android:textSize="16dp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="백신종류"
+                                android:textSize="16dp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+
+                                android:layout_marginBottom="12dp"
+                                android:text="접종횟수"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="12dp"
+
+                                android:text="접종간격"
+                                android:textSize="16dp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="12dp"
+
+                                android:text="보관"
+                                android:textSize="16dp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="유통"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/line2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="70dp"
+                            android:layout_marginBottom="12dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/contry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="미국/독일"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/platform"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="mRNA 백신(핵산백신)"
+                                android:textSize="16dp" />
+
+
+                            <TextView
+                                android:id="@+id/cnt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="2회"
+
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="21일"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/storage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="12dp"
+
+                                android:text="-90°C ~ -60°C(6개월)"
+                                android:textSize="16dp" />
+
+                            <TextView
+                                android:id="@+id/delivery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:text="2°C ~ 8°C(5일)"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            //urlLink
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/layout_border"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/vc_url_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bottom_bar"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/covid_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_click"
+            android:text="확진자"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bottom_btn_clicked"
+            android:text="백신"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

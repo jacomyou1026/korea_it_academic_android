@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
+    <!--FrameLayout은 방향성을 가지고 있지 않아, 자식 객체들이
+    왼쪽 위에 겹쳐서 표시된다.-->
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#f00"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00f"
+        android:layout_margin="10dp"/>
+    <!--margin : 바깥쪽 여백-->
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#aaf"
+        android:text="tv"
+        android:textSize="30dp"
+        android:padding="40dp"
+        android:layout_gravity="right"
+    />
+    <!--layout_gravity :현재 TextView를 통째로 이동시키겠다.-->
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#aac"
+        android:text="tv"
+        android:textSize="30dp"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        />
+        <!--gravity : 현재 textView가 가진 내용의 위치만 변경-->
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#f00"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#00f"
+        android:layout_gravity="center"
+        android:text="Hi"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+
+
+</FrameLayout>

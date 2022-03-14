@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/bg_marker.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/bg_marker_tail.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/bottom_bar.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/bottom_btn_clicked.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/btn.xml" value="0.134" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/btn_click.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/d.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/info_btn.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/info_btn_click.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/layout_border.xml" value="0.1" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/plus.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/text_back.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/drawable/title.xml" value="0.1715" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/layout/activity_covid_main.xml" value="0.2421875" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/layout/custom_marker_view.xml" value="0.2421875" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/layout/list_item.xml" value="0.2421875" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/layout/vaccine_activity_main.xml" value="0.1" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/layout/vaccine_list_custom.xml" value="0.2421875" />
+        <entry key="..\:/backend_edu/web5_pm_android/Covid_19_project/COVID_Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1715" />
+        <entry key="..\:/web_android/work/COVID_Project/app/src/main/res/layout/activity_covid_main.xml" value="0.309375" />
+        <entry key="..\:/web_android/work/COVID_Project/app/src/main/res/layout/vaccine_activity_main.xml" value="0.309375" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/bottom_bar.xml" value="0.166" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/bottom_btn_clicked.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/btn.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/btn_click.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/chart_layout.xml" value="0.2475" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/info_btn.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/info_btn_click.xml" value="0.1575" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/layout_border.xml" value="0.363" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/plus.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/drawable/title.xml" value="0.2305" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/activity_covid_main.xml" value="0.67" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/activity_main.xml" value="0.30589022757697454" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/chart_layout.xml" value="0.1" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/confirmed_activity_main.xml" value="0.21331521739130435" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/custom_marker_view.xml" value="0.2269021739130435" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/vaccine_activity_main.xml" value="0.33" />
+        <entry key="..\:/web_android/work/Vaccine/app/src/main/res/layout/vaccine_list_custom.xml" value="0.18070652173913043" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

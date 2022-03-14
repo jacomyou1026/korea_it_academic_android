@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+    <!--상대적으로 위치를 선정하여 화면을 구현할 수 있도록 하는 레이아웃-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL : "
+        android:textSize="40dp"
+        android:id="@+id/txt"
+        />
+    <!--존재하지 않는 id를 새로 생성할 때는 @+id-->
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="input url"
+        android:id="@+id/et"
+        android:layout_toRightOf="@id/txt"
+        />
+    <!--이미 만들어진 객체를 참조만 할때는 @id -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@id/et"
+        android:layout_alignRight="@id/et"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerInParent="true"
+
+        />
+
+
+
+
+</RelativeLayout>
